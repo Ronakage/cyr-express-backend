@@ -1,0 +1,15 @@
+
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: user
+  data:
+    mongodb:
+      database: shop_database
+  config:
+    import:
+      optional:secrets-shop.properties
+
